@@ -4,21 +4,21 @@ cask "filex" do
 
   on_macos do
     on_arm do
-      sha256 "f21a6caa1632d769665bf4b685faae2d8a011c67c0438de811e02eb33e14b4c6"
+      sha256 "3915eba7d28e8326287e98b82434a2d2d2a8c2c241cc33413ad5848ba45c60ff"
       url "https://github.com/BRF-Tech/filex/releases/download/v#{version}/filex_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "bb476f4d853e308fe69b26c885469d25860528f2c60eb202115bfbff161192b5"
+      sha256 "9accd818eb879e73879ae1435c27e6bf20e015465553d7b033d8991364fae198"
       url "https://github.com/BRF-Tech/filex/releases/download/v#{version}/filex_#{version}_darwin_x86_64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "18125856ee114cd463514d62328add2f69fa26bc84ea5ddf326cdd191d343c29"
+      sha256 "70bb3350fec54a3eba78d368cf2acd6eea4993c7d4249806007450387fe9ee51"
       url "https://github.com/BRF-Tech/filex/releases/download/v#{version}/filex_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "6271df3e62277231fa955420c79b2e5952629aafbaaf5a292d2f21d16a9f8c61"
+      sha256 "6b583cb187d8fb4d74608cac515e7b3c90203c80ca625f4e96c26a164415b0fd"
       url "https://github.com/BRF-Tech/filex/releases/download/v#{version}/filex_#{version}_linux_x86_64.tar.gz"
     end
   end
